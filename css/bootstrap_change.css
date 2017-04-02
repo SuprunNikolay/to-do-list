@@ -1,0 +1,38 @@
+.navbar-brand>img {
+    position: relative;
+    bottom: 11px;
+}
+nav{
+    display: block;
+    position: relative;
+    margin: 0px auto;
+}
+@media (min-width: 768px) {
+    .form-inline .form-control {
+        width: 500px;
+    }
+    .navbar-form .form-control {
+        margin: 5px 0px 5px 42px;
+    }
+    #priority-task-form{
+        width: 35px;
+    }
+}
+
+@media (min-width: 991px) {
+    .navbar-form .form-control {
+        width: auto;
+        margin: 0px 5px 0px 0px;
+    }
+
+}
+@media (max-width: 767px){
+    .form-group {
+        margin-bottom: 3px;
+    }
+}
+.badge{
+    background-color: #527486;
+}
+
+

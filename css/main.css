@@ -1,0 +1,58 @@
+.template{
+    display: none;
+}
+.main-form {
+    margin: 10px 10px;
+}
+
+/*.main-form-color{*/
+/*background-color: #c8d9f9;*/
+/*}*/
+.save-button{
+    background: #0da4f3;
+    color: #ffffff;
+}
+
+@media (max-width: 767px) {
+    .save-button{
+        position: relative;
+        bottom: 37px;
+        left: 63px;
+    }
+}
+.new-task-form{
+    border-color: #0da4f3;
+}
+.new-task-error{
+    border-color: #f3412c;
+    background-color: #ffe7e2;
+}
+#priority-task-form{
+    width: 58px;
+}
+.list{
+    max-width: 934px;
+    margin: 0px 10px;
+}
+.list ul .checkbox{
+    width: 18px;
+    height: 18px;
+    float: left;
+    position: relative;
+    bottom: 3px;
+    left: -6px;
+    margin-right: 10px;
+}
+.list ul .deleteButton{
+    float: right;
+    background-color: inherit;
+    border: none;
+    position: relative;
+    right: 10px;
+    bottom: 2px;
+    border-right: 1px #efefef solid;
+    padding-right: 10px;
+    color: #aeb5b9;
+    font-size: 20px;
+}
+
